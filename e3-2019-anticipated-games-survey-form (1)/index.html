@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>E3 2019 Anticipated Games Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<h1 id="title">E3 2019 Anticipated Games Survey</h1>
+<div id="form-outer">
+  <p id="description">Tell us your expectations for E3 2019!</p>
+  <form id="survey-form" method="GET" action=https://crossorigin.me/https://www.e3expo.com/>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for=name>Name: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Full Name (required)" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for=email>Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" placeholder="Email (required)" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for=name>Age: </label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="age" id="number" min="18" max="256" class="input-field" placeholder="Age (required)" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="currentPOS">Which best describes you? </label>
+      </div>
+      <div class="rightTab">
+        <select id="dropdown" name="currentPOS" class="dropdown">
+          <option disabled value>Please select one</option>
+          <option value="consumer">Consumer</option>
+          <option value="industry">Industry Member</option>
+          <option value="journalist">Journalist</option>
+          <option value="perferNo">Perfer Not to Say</option>
+          <option value="other">Other</option>          
+        </select>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="firstTime"> Is this your first time attending E3?</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Yes<input name="radio-buttons" value="1" type="radio" class="userChoice"></label></li>
+          <li class="radio"><label>No<input name="radio-buttons" value="2" type="radio" class="userChoice"></label></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="preferences">What is(are) your most anticipated game(s) of E3 2019? (Check all that aplly):</label>
+      </div>
+      <div class="rightTab">
+        <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userChoice">Cyberpunk 2077</label></li>
+          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userChoice">Pokemon Sword and Shield</label></li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userChoice">Doom Eternal</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userChoice">The Outer Worlds</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userChoice">Starfield</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userChoice">Borderlands 2</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userChoice">Halo Infinite</label></li>
+          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userChoice">Star Wars Jedi: Fallen Order</label></li>
+          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userChoice">Dragon Age 4</label></li>
+          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userChoice">Fable IV</label></li>
+          <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="userChoice">Mario Maker 2</label></li>
+          <li class="checkbox"><label><input name="prefer" value="12" type="checkbox" class="userChoice">Gears 5</label></li>
+          <li class="checkbox"><label><input name="prefer" value="13" type="checkbox" class="userChoice">Fire Emblem: Three Houses</label></li>
+          <li class="checkbox"><label><input name="prefer" value="14" type="checkbox" class="userChoice">Rage 2</label></li>
+          <li class="checkbox"><label><input name="prefer" value="15" type="checkbox" class="userChoice">Wolfenstein: Young Blood</label></li>
+        </ul>
+      </div>
+    </div>
+  <div class="rowTab">
+    <div class="labels">
+      <labels for="comments">Any Comments or Suggestions?</labels>
+    </div>
+    <div class="rightTab">
+      <textarea id="coments" class="input-field" style="height:50px;resize:vertical;" name="comments" placeholder="Enter your comments here..."></textarea>
+    </div>
+  </div>
+  <button id="submit" type="submit">Submit</button>
+  </form>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
