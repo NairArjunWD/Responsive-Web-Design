@@ -1,0 +1,104 @@
+
+body {
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #837cff;
+  opacity: .7;
+}
+
+.about-me {
+  padding-top: 0;
+  background-color: #79d2fc;
+  box-sizing: content-box;
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+  top: 250px;
+}
+
+p {
+  position: relative;
+  top: 250px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.projects {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.project {
+  background-color: #79d2fc;
+  display: inline-block;
+  text-decoration: none;
+  width: 50%;
+  border: 2px #837cff solid;
+  margin: 10px 10px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 50%;
+  height: 50%;
+}
+
+.project-name {
+  text-decoration: none;
+}
+
+#welcome-section {
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contact-site {
+  contact-site: #837cff;
+}
+
+@media only screen and (max-width: 550px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
+}
+h3{
+  font-size: 2.5em;
+}
+.icon {
+  height: 100px;
+}
